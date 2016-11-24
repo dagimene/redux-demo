@@ -12,6 +12,7 @@ Run the following commands to get it running locally:
 ```sh
 npm install
 npm start
+open http://localhost:3000/
 ```
 
 
