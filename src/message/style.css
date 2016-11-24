@@ -1,0 +1,19 @@
+.message-view__mark-as-unread-button {
+	float: right;
+}
+
+.message-view__from {
+	padding: 5px 0;
+	font-size: 20px;
+}
+
+.message-view__number {
+	font-weight: bold;
+}
+
+.message-view__content {
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 20px 0;
+}

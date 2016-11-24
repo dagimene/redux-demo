@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"from": "1129384729",
+		"content": "Hello world!",
+		"read": false
+	},
+	{
+		"id": 2,
+		"from": "1189344721",
+		"content": "I am inside the redux store",
+		"read": false
+	},
+	{
+		"id": 3,
+		"from": "1139244757",
+		"content": "Yet another message to (un)read",
+		"read": false
+	},
+	{
+		"id": 4,
+		"from": "44444444",
+		"content": "You won a car! Reply 'REDEEM' to get more information.",
+		"read": false
+	},
+	{
+		"id": 5,
+		"from": "1125432393",
+		"content": "With redux all the application state is contained in a global store",
+		"read": false
+	}
+]

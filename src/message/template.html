@@ -1,0 +1,10 @@
+<div class="message-view">
+	<div ng-if="$ctrl.message">
+		<button class="message-view__mark-as-unread-button"
+				ng-click="$ctrl.markAsUnread($ctrl.message.id)">Mark as unread</button>
+		<div class="message-view__from">From:
+			<span class="message-view__number">{{ $ctrl.message.from }}</span>
+		</div>
+		<div class="message-view__content">{{ $ctrl.message.content }}</div>
+	</div>
+</div>

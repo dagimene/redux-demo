@@ -1,0 +1,13 @@
+<div class="message-list-item"
+		ng-click="$ctrl.openMessage($ctrl.message.id)"
+		ng-class="{
+			'message-list-item--unread': !$ctrl.message.read,
+			'message-list-item--open': $ctrl.isSelected
+		}">
+	<div class="message-list-item__from">From:
+		<span class="message-list-item__number">{{ $ctrl.message.from }}</span>
+	</div>
+	<div class="message-list-item__content-wrapper">
+		<span class="message-list-item__content">{{ $ctrl.message.content }}</span>
+	</div>
+</div>
